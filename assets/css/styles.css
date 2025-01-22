@@ -46,9 +46,9 @@ ol li { counter-increment: item; margin-bottom: 5px; }
 
 ol li:before { margin-right: 10px; content: counter(item) "."; color: #000; width: 1.2em; font-weight: 700; text-align: center; display: inline-block; }
 
-.bg { position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height: 40%; background: #352e36 url("https://img1.wsimg.com/isteam/ip/80c3d16e-d7ea-4b83-89f1-b8661b21ef96/background-pattern-desktop.svg/:/rs=w:1440,h:1440"); background-size: cover; }
+.bg { position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height: 40%; background: #352e36 url("../images/background-pattern-desktop.svg"); background-size: cover; }
 
-@media screen and (max-width: 400px) { .bg { background: #352e36 url("https://img1.wsimg.com/isteam/ip/80c3d16e-d7ea-4b83-89f1-b8661b21ef96/background-pattern-mobile.svg/:/rs=w:1440,h:1440"); background-size: cover; } }
+@media screen and (max-width: 400px) { .bg { background: #352e36 url("../images/background-pattern-mobile.svg"); background-size: cover; } }
 
 #container { position: relative; z-index: 10; max-width: 1000px; margin: 150px auto; background: #fff; padding: 2.5em 3em; border-radius: 20px; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2); }
 
@@ -60,11 +60,11 @@ ol li:before { margin-right: 10px; content: counter(item) "."; color: #000; widt
 
 #container .question:hover { color: #AD28EB; }
 
-#container .question:after { content: ""; display: block; position: absolute; top: 3px; right: 0; width: 30px; height: 30px; background: url("https://img1.wsimg.com/isteam/ip/80c3d16e-d7ea-4b83-89f1-b8661b21ef96/icon-plus.svg/:/rs=w:1440,h:1440"); }
+#container .question:after { content: ""; display: block; position: absolute; top: 3px; right: 0; width: 30px; height: 30px; background: url("../images/icon-plus.svg"); }
 
 #container .question.active { color: #AD28EB; }
 
-#container .question.active:after { background: url("https://img1.wsimg.com/isteam/ip/80c3d16e-d7ea-4b83-89f1-b8661b21ef96/icon-minus.svg/:/rs=w:1440,h:1440"); }
+#container .question.active:after { background: url("../images/icon-minus.svg"); }
 
 @media screen and (max-width: 400px) { #container .question { font-size: 1.2em; } }
 
